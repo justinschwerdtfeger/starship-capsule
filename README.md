@@ -2,7 +2,7 @@
 
 ## Installation
 
-## Install FiraMono Nerd Font
+## Install FiraMono Nerd Font (or another nerd font)
 https://www.nerdfonts.com/font-downloads
 ## Install Starship
 https://starship.rs/guide/#%F0%9F%9A%80-installation
