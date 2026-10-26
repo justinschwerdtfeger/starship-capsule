@@ -1,4 +1,7 @@
-# Install instructions (mostly for me)
+# Capsule — a Starship theme
+
+## Installation
+
 ## Install FiraMono Nerd Font
 https://www.nerdfonts.com/font-downloads
 ## Install Starship
@@ -17,17 +20,17 @@ enable_transience
 #### Install Theme
 Clone this repository into .config
 ```fish
-git clone https://github.com/Anti-Shulk/Anti-Shulk-Starship-Theme.git ~/.config/Anti-Shulk-Starship-Theme
+git clone https://github.com/justinschwerdtfeger/starship-capsule.git ~/.config/starship-capsule
 ```
 
 Create a symbolic link (recommended):
 ```fish
-ln -s ~/.config/Anti-Shulk-Starship-Theme/starship.toml ~/.config/starship.toml
+ln -s ~/.config/starship-capsule/starship.toml ~/.config/starship.toml
 ```
 
 Or copy the theme file into the .config directory:
 ```fish
-cp ~/.config/Anti-Shulk-Starship-Theme/starship.toml ~/.config/starship.toml
+cp ~/.config/starship-capsule/starship.toml ~/.config/starship.toml
 ```
 ### Windows Powershell Setup
 #### Install Starship
@@ -66,24 +69,24 @@ Invoke-Expression (&starship init powershell)
 
 Enable-TransientPrompt
 ```
-Enable powershell script execution in Administator Powershell
+Enable powershell script execution in Administrator Powershell
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
 #### Install Theme
 Install Git if it is not already installed
 ```powershell
-winget instal Git.Git
+winget install Git.Git
 ```
 Clone this repository into AppData Local folder
 ```powershell
-git clone https://github.com/Anti-Shulk/Anti-Shulk-Starship-Theme.git $env:LOCALAPPDATA/Anti-Shulk-Starship-Theme
+git clone https://github.com/justinschwerdtfeger/starship-capsule.git $env:LOCALAPPDATA/starship-capsule
 ```
-Create a .config directory (if it does not alreayd exist)
+Create a .config directory (if it does not already exist)
 ```powershell
 New-Item -ItemType Directory -Force ~/.config
 ```
 Copy the theme file into the .config directory
 ```powershell
-cp $env:LOCALAPPDATA/Anti-Shulk-Starship-Theme/starship.toml ~/.config
+cp $env:LOCALAPPDATA/starship-capsule/starship.toml ~/.config
 ```
